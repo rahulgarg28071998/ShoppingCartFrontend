@@ -1,0 +1,84 @@
+@charset "ISO-8859-1";
+.navbar
+{
+margin-bottom:0px;
+border-radius:0;
+background-color:#5E4485;
+color:#FFFFFF;
+padding: 2% 0%;
+border:4px;
+font-size:14px;
+}
+
+.navbar-brand
+{
+float : left;
+min-height:5px;
+padding:0 15px 5px;
+
+}
+
+.navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus,.navbar-inverse .navbar-nav .active a:hover,
+{
+color:#FFFFFF;
+background-color:#5E4485;
+}
+
+
+
+
+
+
+form
+{
+background-color:#FFFFFF;
+margin:5% 5% 5% 5%;
+style="border:1px solid #ccc"
+}
+
+input[type=text], input[type=password] {
+    width: 99%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn {
+    float: left;
+    width: 50%;
+}
+.sign{
+	text-align: center;
+	text-color:#FFFFFF;
+}
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
