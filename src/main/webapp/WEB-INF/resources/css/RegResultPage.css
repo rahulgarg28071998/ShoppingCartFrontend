@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+body, html {
+	background-color: #d3d3d3;
+}
+.navbar
+{
+margin-bottom:0px;
+border-radius:0;
+background-color:#5E4485;
+color:#FFFFFF;
+padding: 2% 0%;
+border:4px;
+font-size:14px;
+}
+
+
+.navbar-brand
+{
+float : left;
+min-height:5px;
+margin:0 15px 5px  ;
+
+}
+
+.navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus,.navbar-inverse .navbar-nav .active a:hover
+{
+color:#FFFFFF;
+background-color:#5E4485;
+}
+
+footer{
+  width:100%;
+  background-color:#5E4485;
+  padding:3%;
+  color:#fff;
+  }
+  .fa{
+  padding:20px;
+  font-size:30px;
+  color:#fff
+  }
+  .fa:hover{
+  color:#D5D5D5;
+  text-decoration:none;
+  }
+  
+  .success{
+ margin:10% 10% 10% 10%;
+ text-align: center;
+
+  }
